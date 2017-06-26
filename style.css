@@ -22,15 +22,15 @@ td, th {
 th {
 	text-decoration: none;
 	font-size: 15px;
-	
+
 }
 tr:nth-child(even) {
     background-color: #F5F5F5;
 }
 
 .outer {
-	width: 100%; 
-	height: 100px; 
+	width: 100%;
+	height: 100px;
 	marigin: 0 auto;
 }
 
@@ -46,17 +46,17 @@ tr:nth-child(even) {
 }
 
 select.nav {
-	
+
 	height: 42px;
 
-	
+
 }
 
 input.nav {
-	
+
 	height: 38px;
-	
-	
+
+
 }
 
 .button {
@@ -74,7 +74,7 @@ input.nav {
 .button:hover {
 	cursor: pointer;
 	background-color: #259e1f;
-	
+
 }
 
 h1 {
@@ -103,7 +103,7 @@ input {
 
 .nav {
 	padding:0;
-	
+
 }
 
 .content:hover {
@@ -112,11 +112,12 @@ input {
 }
 
 .metadata {
-	display: none;
+
+	display: table-row;
 }
 
 .metadata.active {
-	display: table-row;
+	display: none;
 }
 
 .emptycell {

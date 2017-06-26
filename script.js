@@ -1,8 +1,5 @@
 
-function date(){
-	new Pikaday({ field: document.getElementById('datepicker') });
-}
-//Date Picker//
+
 
 function defaultId() {
 
@@ -29,6 +26,7 @@ $(document).ready(function(){
 
 		$(".metadata").each(function() {
 
+			row.nextUntil('.content').addClass(rowId);
 		//Loops through metadata...//
 
 			if ($(this).hasClass(rowId)) {
@@ -45,12 +43,8 @@ $(document).ready(function(){
 
 	else {
 
+		row.nextUntil('.content').addClass(rowId);
 
-
-
-	 	    $(row.after('<tr class="metadata active ' + rowId +' " ><td>More Data</td><td>More Data</td><td>More Data</td></tr>')) ;
-	 	    $(row.after('<tr class="metadata active ' + rowId +' " ><td>More Data</td><td>More Data</td><td>More Data</td></tr>')) ;
-			  $(row.after('<tr class="metadata active ' + rowId +' " ><td>More Data</td><td>More Data</td><td>More Data</td></tr>')) ;
 
 
 		//Adds rows of extra data after clicked row, from top down.  To add more rows, just copy and paste a line.//
