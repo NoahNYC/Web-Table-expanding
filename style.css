@@ -3,6 +3,7 @@ body {
 	margin: 0 ;
 	padding: 0;
 }
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -24,6 +25,7 @@ th {
 	font-size: 15px;
 
 }
+
 tr:nth-child(even) {
     background-color: #F5F5F5;
 }
@@ -45,56 +47,10 @@ tr:nth-child(even) {
 	margin-top: 40px;
 }
 
-select.nav {
-
-	height: 42px;
-
-
-}
-
-input.nav {
-
-	height: 38px;
-
-
-}
-
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 12px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-	margin-left: 20px;
-}
-
-.button:hover {
-	cursor: pointer;
-	background-color: #259e1f;
-
-}
-
-h1 {
-	font-family: arial;
-}
-
-.inputHeight {
-	height: 36px;
-	text-align: center;
-}
-
 .navtext {
 	float: left;
 	font-family: arial;
 	margin-left: 200px;
-}
-
-input {
-	text-align: center;
-	font-size: 15px;
 }
 
 .droptable {
@@ -117,6 +73,7 @@ input {
 }
 
 .metadata.active {
+
 	display: none;
 }
 
